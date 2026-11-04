@@ -1,0 +1,7 @@
+﻿Metodo,Iterazioni,Tempo [ms],Valutazioni F,Valutazioni gradiente,Valutazioni Hessiana,Ordine stimato,Fattore misurato,Fattore teorico,Errore finale
+Gradiente 1/L,622,35.324,0,623,0,1.000,0.97732,0.97732,3.747e-07
+Gradiente Armijo,533,46.089,1066,534,0,1.000,0.97360,0.97360,3.785e-07
+Newton,5,0.964,10,6,5,1.960,-,-,1.577e-09
+BFGS,57,10.810,114,58,0,1.043,0.640,-,3.214e-08
+Gradiente prossimale,623,21.741,0,623,0,1.000,0.97732,0.97732,3.662e-07
+FISTA,481,19.314,0,481,0,0.987,0.98489,-,3.282e-07
