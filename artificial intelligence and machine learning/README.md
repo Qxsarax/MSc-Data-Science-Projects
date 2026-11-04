@@ -1,52 +1,51 @@
-# 🧬 Carcinoma Classification — Exam Project
+# Carcinoma Classification — Machine Learning Exam Project
 
-## Challenge Website
-https://www.kaggle.com/competitions/oxml-carinoma-classification  
+## Project Overview
 
----
+This project was developed as part of a university examination in Machine Learning and Data Science.
 
-##  Project Context
+The objective is to classify histopathological images stained using the **Hematoxylin–Eosin–Saffron (HES)** technique, identifying the presence of carcinoma and assigning each image to one of three classes defined by the competition.
 
-Questo progetto è stato sviluppato come elaborato d’esame nell’ambito di Machine Learning / Data Science.
+The task is formulated as a **three-class image classification problem**:
 
-L’obiettivo è la classificazione di immagini istopatologiche colorate con tecnica **HES (Hematoxylin–Eosin–Saffron)** al fine di identificare la presenza di cellule carcinomatose e, in caso positivo, determinarne la natura.
+| Label | Class | Description |
+|---|---|---|
+| -1 | Carcinoma neg | Negative |
+| 0 | Carcinoma pos, benign | Positive, benign category |
+| 1 | Carcinoma pos, malignant | Positive, malignant category |
 
-Il problema è formulato come una **classificazione multi-classe a tre categorie**:
+## Dataset
 
-- **Carcinoma neg (-1)** → Assenza di carcinoma  
-- **Carcinoma pos, benign (0)** → Presenza di carcinoma benigno  
-- **Carcinoma pos, malignant (1)** → Presenza di carcinoma maligno  
+The dataset provided by the competition consists of **186 histopathological images**, divided into:
 
----
+- **62 labeled images** for supervised learning.
+- **124 unlabeled images** for prediction.
 
-##  Dataset
+The limited availability of labeled data introduces several methodological challenges, including:
 
-Il dataset fornito dalla challenge presenta le seguenti caratteristiche:
+- Preventing overfitting.
+- Designing an appropriate validation strategy.
+- Evaluating data augmentation techniques.
+- Exploring semi-supervised learning approaches.
 
-- **186 immagini totali**
-- **62 immagini etichettate**
-- **124 immagini non etichettate**
+## Project Objectives
 
-La presenza di un numero limitato di label rende il problema particolarmente interessante dal punto di vista metodologico, in quanto richiede:
+The main objectives of the project are:
 
-- Attenta gestione della validazione
-- Controllo dell’overfitting
-- Possibile utilizzo di tecniche di data augmentation
-- Eventuale esplorazione di approcci semi-supervised
+1. **Exploratory Data Analysis (EDA):** investigate dataset characteristics and class distribution.
+2. **Data Preprocessing:** prepare histopathological images for model training.
+3. **Model Development:** implement and compare different classification approaches.
+4. **Model Evaluation:** assess predictive performance using appropriate classification metrics.
+5. **Competition Submission:** generate predictions for unlabeled images and prepare the submission file according to the competition requirements.
 
----
+## Competition
 
-##  Obiettivi del Progetto
+**Platform:** Kaggle
 
-- Analisi esplorativa del dataset
-- Implementazione pipeline di preprocessing
-- Addestramento e confronto di diversi modelli di classificazione
-- Valutazione delle performance tramite metriche appropriate
-- Generazione della submission conforme alle specifiche del challenge website
+**Challenge:** [OX-ML Carcinoma Classification](https://www.kaggle.com/competitions/oxml-carinoma-classification)
 
----
+## Academic Disclaimer
 
-## Nota
+This project was developed exclusively for academic and educational purposes.
 
-Questo progetto è stato realizzato esclusivamente a fini accademici.
-Non ha validità clinica e non deve essere utilizzato per scopi diagnostici.
+The models and predictions are not clinically validated and must not be used for medical diagnosis or clinical decision-making.
