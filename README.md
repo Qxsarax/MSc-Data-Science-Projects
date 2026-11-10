@@ -26,3 +26,7 @@ Python · SQL · Apache Spark · Docker · MATLAB · Neo4J
 ## Repository Updates
 
 This repository will be progressively updated as new academic projects are completed.
+
+## Documentation Language
+
+README files are written in **English** by default. Projects originally developed in Italian may retain their documentation in **Italian** to preserve consistency with the original work.
